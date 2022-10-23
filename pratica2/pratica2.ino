@@ -10,7 +10,7 @@ WiFiClient espClient; // Cria o objeto espClient
 // WIFI
 const char* myHostname = "nodeMCU"; // Nome do host na rede
 const char* SSID = "RedeEsp"; // SSID / nome da rede WI-FI (AP) do WiFiManager 
-const char* PASSWORD = "password"; // Senha da rede WI-FI (AP) do WiFiManager
+const char* PASSWORD = "12345678"; // Senha da rede WI-FI (AP) do WiFiManager
 
  
 void init_WifiAp() 
